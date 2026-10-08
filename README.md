@@ -25,4 +25,5 @@ def failRespond():
 
 That is all, thank you.
 
--HalloweenTrickster, 2026
+
+-HalloweenTrickster

@@ -1,3 +1,7 @@
+'''
+NOTE: This is a testing model, NOT made for use!
+'''
+
 from pathlib import Path
 
 FPQ = Path(__file__).parent / "weights" / "QANodes" / "questions"
@@ -41,9 +45,6 @@ def questionCheck():
         failRespond()
 
 while True:
-
     grabData()
-
     usrin = input(">> ").strip().lower()
-
     questionCheck()

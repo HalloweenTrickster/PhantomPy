@@ -1,4 +1,4 @@
-Xenia is a trainable chatbot made in python.
+PhantomPy is a trainable chatbot made in python.
 
 It has nothing in it's text files, meaning a clean slate for anyone to use.
 

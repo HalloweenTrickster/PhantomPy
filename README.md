@@ -1,6 +1,6 @@
 Xenia is a trainable chatbot made in python.
 
-It has nothing in it's text files, meaning a clean slate for anyone.
+It has nothing in it's text files, meaning a clean slate for anyone to use.
 
 NOTE: The Context node isn't finished yet, i'm hoping to add it in the next update.
 

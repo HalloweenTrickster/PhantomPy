@@ -14,7 +14,7 @@ How to train:
 2. It will then say "I'm not too sure what I should respond with."
 3. After the "Type:" prompt comes up, type the answer and click enter. (There should be no white space anywhere other than spaces.)
 4. It will then load it into the appropriate files, and remember it.
-5. Repeat until finished with training, once you're done, you can optionally replace failRespond()'s with this:
+5. Repeat until finished with training, once you're done, you can optionally replace failRespond() with this:
 
 
 ```python
@@ -22,7 +22,7 @@ def failRespond():
     print("I'm not sure what you mean, sorry!")
 ```
 
-(This will turn off it's learning capabilities.)
+(This will turn off its learning capabilities.)
 
 That is all, thank you.
 

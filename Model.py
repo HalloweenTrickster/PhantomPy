@@ -1,7 +1,7 @@
 from pathlib import Path
 
-FPQ = Path(__file__).parent / "weights" / "QANodes" / "questions"
-FPA = Path(__file__).parent / "weights" / "QANodes" / "answers"
+FPQ = Path(__file__).parent / "nodes" / "QANodes" / "questions"
+FPA = Path(__file__).parent / "nodes" / "QANodes" / "answers"
 
 questions = []
 answers = []

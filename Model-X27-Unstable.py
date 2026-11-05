@@ -7,7 +7,7 @@ from pathlib import Path
 FPQ = Path(__file__).parent / "nodes" / "QANodes" / "questions"
 FPA = Path(__file__).parent / "nodes" / "QANodes" / "answers"
 CI = Path(__file__).parent / "nodes" / "CNodes" / "contextin"
-CO = Path(__file__).parent / "nodes" / "CNodes" / "contextin"
+CO = Path(__file__).parent / "nodes" / "CNodes" / "contextout"
 
 questions = []
 answers = []

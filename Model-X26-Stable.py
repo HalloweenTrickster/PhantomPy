@@ -15,6 +15,9 @@ def grabData():
     with open(FPA, 'r') as file:
         answers = [line.strip() for line in file.readlines()]
 
+    if len(questions) != len(answers):
+        print("WARNING: Questions and Answers nodes out of sync!")
+
 
 def answer():
     index = questions.index(usrin)

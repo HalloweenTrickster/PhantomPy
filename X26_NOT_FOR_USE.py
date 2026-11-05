@@ -6,9 +6,13 @@ from pathlib import Path
 
 FPQ = Path(__file__).parent / "nodes" / "QANodes" / "questions"
 FPA = Path(__file__).parent / "nodes" / "QANodes" / "answers"
+CI = Path(__file__).parent / "nodes" / "CNodes" / "contextin"
+CO = Path(__file__).parent / "nodes" / "CNodes" / "contextin"
 
 questions = []
 answers = []
+contextin = []
+contextout = []
 usrin = ""
 
 def grabData():
@@ -35,6 +39,18 @@ def failRespond():
 
     with open(FPA, "a") as file:
         file.write("\n" + usrin2)
+
+'''
+def contextcheck():
+    global contextin, contextout
+    with open(CI, 'r') as file:
+        Parse this file.
+    with open(CO, 'r') as file:
+        Parse this file.
+        
+    if usrin in contextin:
+        answer using contextout?
+'''
 
 
 def questionCheck():

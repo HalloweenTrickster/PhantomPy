@@ -2,8 +2,6 @@ PhantomPy is a trainable chatbot made in python.
 
 It has nothing in it's text files, meaning a clean slate for anyone to use.
 
-NOTE: The context node isn't finished yet, i'm hoping to add it in the next update.
-
 -------------------------------------------------------------------------------------------------
 
 How to train:
@@ -24,7 +22,11 @@ def failRespond():
 
 (This will turn off its learning capabilities.)
 
-That is all, thank you.
+--------------------------------------------------------------------------------------------------
 
+What's next for the project:
 
--HalloweenTrickster
+1. Static Context - For better language capabilities.
+2. Better text mismatch safety.
+3. Go from txt to json - For ease of use.
+4. Dynamic Context - Much more difficult, much better language capabilities.

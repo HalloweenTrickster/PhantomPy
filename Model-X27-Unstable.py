@@ -39,22 +39,23 @@ def failRespond():
     with open(FPA, "a") as file:
         file.write("\n" + usrin2)
 
-'''
+
 def contextcheck():
     global contextin, contextout
     with open(CI, 'r') as file:
-        Parse this file.
+        contextin = [line.strip() for line in file.readlines()]
     with open(CO, 'r') as file:
-        Parse this file.
+        contextout = [line.strip() for line in file.readlines()]
         
-    if usrin in contextin:
-        answer using contextout?
-'''
+    if usrin in contextout:
+        #something here.
+
 
 
 def questionCheck():
     if usrin in questions:
         answer()
+        contextanswer = Uhhhh whatever the last thingy was.
 
     else:
         failRespond()
